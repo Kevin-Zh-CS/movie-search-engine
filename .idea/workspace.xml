@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d30e6e7-5ff2-4e4c-97c2-17ac5708b1d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="12" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1leEl9mjLcEFzOJokM1UAgHzBRu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/My_Android/IDEA_SDK" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SC\douban-search\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kevin.doubansearch.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SC\douban-search\src\main\resources\static\css" />
+      <recent name="D:\SC\douban-search\src\main\resources\templates" />
+      <recent name="D:\SC\douban-search\src\main\resources" />
+      <recent name="D:\SC\douban-search\src\main\resources\static\css\css" />
+      <recent name="D:\SC\douban-search\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DoubanSearchApplication">
+    <configuration name="HtmlParseUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kevin.doubansearch.utils.HtmlParseUtil" />
+      <module name="douban-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kevin.doubansearch.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvertedIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kevin.doubansearch.Index.InvertedIndex" />
+      <module name="douban-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kevin.doubansearch.Index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubanSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="douban-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kevin.doubansearch.DoubanSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InvertedIndex" />
+        <item itemvalue="Application.HtmlParseUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d30e6e7-5ff2-4e4c-97c2-17ac5708b1d2" name="Default Changelist" comment="" />
+      <created>1607949304152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607949304152</updated>
+      <workItem from="1607949312917" duration="7813000" />
+      <workItem from="1608007939196" duration="4022000" />
+      <workItem from="1608021705460" duration="53000" />
+      <workItem from="1608038388288" duration="84000" />
+      <workItem from="1608047441078" duration="4032000" />
+      <workItem from="1608077744144" duration="2185000" />
+      <workItem from="1608100220013" duration="997000" />
+      <workItem from="1608426495128" duration="261000" />
+      <workItem from="1608426895631" duration="32000" />
+      <workItem from="1608428492631" duration="2805000" />
+      <workItem from="1608435615136" duration="55000" />
+      <workItem from="1610182455507" duration="3329000" />
+      <workItem from="1610192228450" duration="7285000" />
+      <workItem from="1610214629338" duration="1026000" />
+      <workItem from="1610297395703" duration="30000" />
+      <workItem from="1610467907604" duration="3494000" />
+      <workItem from="1610496458891" duration="1976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="494" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1610194480188">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="659" y="164" key="#com.intellij.ide.util.MemberChooser/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608014864600" />
+    <state x="494" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610194480188" />
+    <state x="563" y="28" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1607958510927">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="563" y="28" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1607958510927" />
+    <state x="584" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607956467635">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="584" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1607956467635" />
+    <state x="634" y="216" key="FileChooserDialogImpl" timestamp="1610297427147">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="634" y="216" key="FileChooserDialogImpl/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1610297427147" />
+    <state x="475" y="160" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608435667284" />
+    <state width="1237" height="470" key="GridCell.Tab.0.bottom" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.0.bottom/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379325" />
+    <state width="1663" height="632" key="GridCell.Tab.0.bottom/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478394" />
+    <state width="1237" height="470" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state width="1237" height="470" key="GridCell.Tab.0.center" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.0.center/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379324" />
+    <state width="1663" height="632" key="GridCell.Tab.0.center/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478393" />
+    <state width="1237" height="470" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state width="1237" height="470" key="GridCell.Tab.0.left" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.0.left/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379324" />
+    <state width="1663" height="632" key="GridCell.Tab.0.left/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478393" />
+    <state width="1237" height="470" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state width="1237" height="470" key="GridCell.Tab.0.right" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.0.right/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379324" />
+    <state width="1663" height="632" key="GridCell.Tab.0.right/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478394" />
+    <state width="1237" height="470" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state width="1237" height="470" key="GridCell.Tab.1.bottom" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.1.bottom/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379325" />
+    <state width="1663" height="632" key="GridCell.Tab.1.bottom/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478394" />
+    <state width="1237" height="470" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state width="1237" height="470" key="GridCell.Tab.1.center" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.1.center/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379325" />
+    <state width="1663" height="632" key="GridCell.Tab.1.center/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478394" />
+    <state width="1237" height="470" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state width="1237" height="470" key="GridCell.Tab.1.left" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.1.left/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379325" />
+    <state width="1663" height="632" key="GridCell.Tab.1.left/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478394" />
+    <state width="1237" height="470" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state width="1237" height="470" key="GridCell.Tab.1.right" timestamp="1610498742195">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="470" key="GridCell.Tab.1.right/-1920.0.1280.680/0.0.1707.920@-1920.0.1280.680" timestamp="1610476379325" />
+    <state width="1663" height="632" key="GridCell.Tab.1.right/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608051478394" />
+    <state width="1237" height="470" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610498742195" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1608048144374">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.680/0.0.1707.920@0.0.1707.920" timestamp="1608048144374" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="elements" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false"
+                    aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--                <a class="navbar-brand" href="#">豆瓣</a>-->
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="https://www.douban.com/">豆瓣</a></li>
+                <li><a href="https://book.douban.com/">读书</a></li>
+                <li><a href="https://movie.douban.com/">电影</a></li>
+                <li><a href="https://music.douban.com/">音乐</a></li>
+                <li><a href="https://www.douban.com/location/">同城</a></li>
+                <li><a href="https://www.douban.com/group/explore">小组</a></li>
+                <li><a href="https://read.douban.com/?dcs=top-nav&dcm=douban">阅读</a></li>
+                <li><a href="https://fm.douban.com">FM</a></li>
+                <li><a href="https://fm.douban.com">豆品</a></li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">更多 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">一刻</a></li>
+                        <li><a href="#">豆瓣摄影</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="app">
+    <div class="container container-top">
+        <div class="row seach-bar">
+            <div class="pull-left nav-logo">
+                <a href="https://movie.douban.com">豆瓣电影</a>
+            </div>
+            <div class="col-lg-5 col-md-6 col-xs-6 pull-left">
+                <div class="input-group search-wrap">
+                    <input v-model="keyword" id="searchInpt" type="text" class="form-control"
+                           placeholder="电影、影人、影院、电视剧">
+                    <span class="input-group-btn">
+                        <button id="searchBtn" @click.prevent="searchKey" class="btn btn-default" type="submit"><i
+                                class="glyphicon glyphicon-search"></i></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="https://movie.douban.com/cinema/">影讯&购票</a></li>
+            <li role="presentation"><a
+                    href="https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0">选电影</a>
+            </li>
+            <li role="presentation"><a
+                    href="https://movie.douban.com/tv/#!type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0">电视剧</a>
+            </li>
+            <li role="presentation"><a href="https://movie.douban.com/chart">排行榜</a></li>
+            <li role="presentation"><a href="https://movie.douban.com/tag/#/">分类</a></li>
+            <li role="presentation"><a href="https://movie.douban.com/review/best/">影评</a></li>
+            <li role="presentation"><a href="https://movie.douban.com/annual/2019?source=navigation">2019年度榜单</a></li>
+            <li role="presentation"><a href="https://m.douban.com/standbyme/annual2019?source=navigation">2019观影报告</a>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="container2">
+        <div class="movie-card" v-for="result in results">
+            <div class="movie-header">
+                <img :src="result.img" height="367px" width="100%">
+            </div>
+            <div class="movie-content">
+                <div class="movie-content-header">
+                    <a href="#">
+                        <h5 class="movie-title" v-html="result.title"></h5>
+                    </a>
+                    <div class="imax-logo"></div>
+                </div>
+                <div class="movie-info">
+                    <div class="info-section">
+                        <label>评分：{{result.score}}</label>
+                    </div><!--date,time-->
+
+                 </div>
+                    <p>简介：{{result.detail}}</p>
+
+            </div><!--movie-content-->
+        </div><!--movie-card-->
+    </div>
+</div>
+<!--<div class="col-lg-3  col-sm-12 col-xs-12 blog-sidebar" style="float: right; margin-right: 20px">-->
+<!--    <div class="sidebar-module sidebar-module-inset">-->
+<!--        <h3>简介</h3>-->
+<!--        <p>这是一个基于<i>Spring</i>, <i>SpringBoot</i>, <i>ElasticSearch</i>和<i>Vue</i>等技术的仿豆瓣搜索项目。搜索涉及分词查询、高亮显示、分词模糊匹配、倒排文件索引等方法。-->
+<!--        </p>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--前端使用vue，实现前后端分离-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+<script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            keyword: '',
+            results: []
+        },
+        methods: {
+            searchKey() {
+                var keyword = this.keyword;
+                //对接后端接口
+                axios.get('search/' + keyword + "/1/20").then(response => {
+                    this.results = response.data;
+                })
+            }
+        }
+    })
+</script>
+
+
+</body>
+</html>
