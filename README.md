@@ -1,6 +1,6 @@
 # Overview
 
-![image](https://github.com/Kevin-Zh-CS/movie-search-engine/blob/master/img/image1.png)
+![image](https://github.com/Kevin-Zh-CS/movie-search-engine/blob/master/img/image2.png)
 
 
 
